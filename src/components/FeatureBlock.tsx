@@ -2,9 +2,7 @@ import { featureBlock } from "@/types/interfaces";
 import Image from "next/image";
 import { Heading } from "@/components/Heading";
 
-interface FeatureBlockProps extends featureBlock {}
-
-const FeatureBlock: React.FC<FeatureBlockProps> = ({
+const FeatureBlock: React.FC<featureBlock> = ({
   title,
   imageUrl,
   content,

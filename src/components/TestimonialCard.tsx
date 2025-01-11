@@ -2,9 +2,7 @@ import { Testimonial } from "@/types/interfaces";
 import { Quote } from "lucide-react";
 import Image from "next/image";
 
-interface TestimonialCardProps extends Testimonial {}
-
-export const TestimonialCard: React.FC<TestimonialCardProps> = ({
+export const TestimonialCard: React.FC<Testimonial> = ({
   imageUrl,
   name,
   role,
